@@ -19,10 +19,10 @@
 
 <body>
 
-    <div class="container bg-container mt-2 shadow py-4">
+    <div class="container bg-container my-2 shadow py-4">
         <div class="row">
             <div class="col-md-12">
-                <div class="text-center">
+                <div class="text-center text-white">
                     <h3>CRUD CON PHP, PDO, DATATABLES Y AJAX</h1>
                         <h4>Andrés Garcia &copy;2021
                     </h3>
@@ -84,7 +84,7 @@
                             </div>
                             <div class="mb-3">
                                 <label for="image" class="form-label">Imagen:</label>
-                                <input type="file" name="image" id="image" class="form-control">
+                                <input type="file" name="image" accept="image/*" id="image" class="form-control">
                             </div>
                             <span id="load_image">
 

@@ -1,15 +1,6 @@
 <?php
 class UserModel
 {
-  public function saveImage($imageFile):string
-  {
-    $extension = explode('.', $imageFile['name']);
-    $newFile = time() .'.'. $extension[1];
-    $location = '../assets/img/' . $newFile;
-    move_uploaded_file($imageFile['tmp_name'], $location);
-    return $newFile;
-  }
-
   public function getImage($idUser)
   {
     $obDB = new ConnectionDB();
