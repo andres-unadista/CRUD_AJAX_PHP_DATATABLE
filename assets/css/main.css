@@ -1,0 +1,14 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #ffe8d6;
+}
+
+.bg-container{
+  background-color: #cb997e;
+  border-radius: 15px;
+}
+
+.btn-delete{
+  background-color: #f36976;
+}
